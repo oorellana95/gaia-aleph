@@ -5,7 +5,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import Iframe from 'react-iframe'
 
-function StaffCard(props) {
+function FlippedCard(props) {
     const [flipped, setFlipped] = useState(false);
     return (
         <>
@@ -34,4 +34,4 @@ function StaffCard(props) {
 }
 
 
-export default StaffCard;
+export default FlippedCard;
