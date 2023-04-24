@@ -3,7 +3,7 @@ import React from 'react'
 import Map from 'components/Map';
 import ItemContact from 'components/ItemContact';
 import { Container, Row, Col } from "reactstrap";
-import { faBuilding } from '@fortawesome/free-solid-svg-icons'
+import { faBuilding, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 function MapSection() {
 
@@ -11,41 +11,34 @@ function MapSection() {
         {
             name: 'Location 1',
             location: {
-                lat: 41.495657,
-                lng: 1.907097
-            }
-        },
-        {
-            name: 'Location 2',
-            location: {
-                lat: 41.385090,
-                lng: 2.170705
+                lat: -22.94115575469356,
+                lng: -43.180284748316865
             }
         }]
 
     const defaultCenter = {
-        lat: 41.445214, lng: 2.039129
+        lat: -22.94115575469356, lng: -43.180284748316865
     }
 
     const itemsContact = [
         {
-            name: 'SEAT S.A, Martorell.',
-            description: 'Carretera Nacional II KM 585, BCN 08760',
+            name: 'GAIA ALEPH, Rio de Janeiro.',
+            description: 'Edifício Luiz Simões Lopes, Praia de Botafogo, 190 - 11º Andar - Botafogo, 22250-900',
             icon: faBuilding
         },
         {
-            name: 'SEAT CODE, Barcelona.',
-            description: 'Carrer En Bot 22, BCN 08002',
-            icon: faBuilding
+            name: '(21) 97501-6000',
+            description: 'Segunda a Sexta 8am até 8pm',
+            icon: faPhone
         }]
 
     return (
         <>
-            <div className="site-section bg-light">
+            <div className="site-section">
                 <Container>
                     <Row>
                         <Col md={6} className="mx-auto text-center mb-3 section-heading">
-                            <h2 className="mb-5">Pick up your vehicle</h2>
+                            <h2 className="mb-5">Encontre-nos em</h2>
                         </Col>
                     </Row>
                     <Row>

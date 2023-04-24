@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
-import StaffCard from 'components/StaffCard';
+import FlippedCard from 'components/FlippedCard';
 
 function AboutStaffSection() {
 
@@ -39,7 +39,7 @@ function AboutStaffSection() {
                     <Row className="justify-content-center">
                         {staff.map(item => {
                             return (
-                                <StaffCard name={item.name} description={item.description} hrefGit={item.hrefGit} hrefLinkdIn={item.hrefLinkdIn}  img={item.img} flipped={item.flipped}  />
+                                <FlippedCard name={item.name} description={item.description} hrefGit={item.hrefGit} hrefLinkdIn={item.hrefLinkdIn}  img={item.img} flipped={item.flipped}  />
                             )
                         })}
                     </Row>

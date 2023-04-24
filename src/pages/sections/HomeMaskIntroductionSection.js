@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
+import { Link } from 'react-router-dom';
 
 function MaskIntroductionSection() {
     return (
@@ -10,11 +11,12 @@ function MaskIntroductionSection() {
                         <Col lg={5} xl={5}>
                             <div className="info">
                                 <div className="section-title mb-20px">
-                                    <span>Aparelho facial bovino</span>
+                                    <span>Máscara e plataforma</span>
                                     <h3>Mais um passo transformando nossas fazendas e mundo</h3>
                                 </div>
                                 <p>Aparelho facial bovino para converter metano em dióxido de carbono e água, reduzindo o efeito estufa resultante. É um equipamento confortável e seguro que contribui positivamente para a atividade pecuária, pois além de realizar a conversão e ganhar créditos de carbono, também permite obter dados relacionados à saúde e localização do animal.</p>
-                                <a href="https://www.seat.es/" rel="noopener noreferrer" target="_blank" className="line-button">Saiba Mais</a>
+                                <p>A plataforma e a ferramenta para monitorar as atividades das máscaras, o estado dos bovinos e também permite vender os créditos gerados por as máscaras direitamente ao mercado.</p>
+                                <Link to={"/farmers"}><span className="line-button">Saiba Mais</span></Link>
                             </div>
                         </Col>
                         <Col lg={7} xl={7}>

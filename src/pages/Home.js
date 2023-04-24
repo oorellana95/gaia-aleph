@@ -3,9 +3,12 @@ import React from 'react';
 import MyNavbar from "components/MyNavbar.js";
 import Header from "components/Header.js";
 import Footer from "components/Footer.js";
-import MaskIntroductionSection from './sections/MaskIntroductionSection';
-import VideoSection from './sections/VideoSection';
+import HomeLandingSection from './sections/HomeLandingSection';
+import MaskIntroductionSection from './sections/HomeMaskIntroductionSection';
 import HomeMapSection from './sections/HomeMapSection';
+import AboutBettingSection from './sections/AboutBettingSection';
+import VideoModalSection from './sections/VideoModalSection';
+import PlatformClientTypesSection from './sections/PlatformClientTypesSection';
 
 function Home () {
   React.useEffect(() => {
@@ -29,8 +32,10 @@ function Home () {
         <Header routeImage = {require("assets/img/home-header.png")} title="Gaia Aleph" description = "Reduza as emissões e ganhe créditos de carbono" filterColor="blue"/>
         
         <div className="main">
-          <VideoSection backgroundColor="black" urlVideo="https://player.vimeo.com/video/440582383?background=1"/>
+          <HomeLandingSection/>
+          <VideoModalSection title="Entendendo o Problema" miniTitle="Observatório do Clima" videoId="VNsja2bEEAA" videoImage={require("assets/img/portrait-video.png")}/>
           <MaskIntroductionSection/>
+          <PlatformClientTypesSection/>
           <HomeMapSection/>
         </div>
 

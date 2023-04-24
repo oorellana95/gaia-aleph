@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
 
-function FgvSection() {
+function AboutFgvSection() {
     return (
         <>
             <div className="Fgv-section site-section bg-light">
@@ -57,4 +57,4 @@ function FgvSection() {
     );
 }
 
-export default FgvSection;
+export default AboutFgvSection;

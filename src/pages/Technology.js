@@ -2,12 +2,12 @@ import React from 'react';
 // core components
 import MyNavbar from "components/MyNavbar.js";
 import Header from "components/Header.js";
-import MaskDescriptionSection from './sections/MaskDescriptionSection';
-import ThreeLongImagesSection from './sections/ThreeLongImagesSection';
+import MaskDescriptionSection from './sections/TechnologyMaskDescriptionSection';
+import ThreeLongImagesSection from './sections/TechnologyThreeLongImagesSection';
 import VideoModalSection from './sections/VideoModalSection';
 import Footer from "components/Footer.js";
 import PlatformClientTypesSection from './sections/PlatformClientTypesSection';
-import PlatformDescriptionSection from './sections/PlatformDescriptionSection';
+import TechnologyPlatformDescriptionSection from './sections/TechnologyPlatformDescriptionSection';
 
 function Farmers () {
   React.useEffect(() => {
@@ -29,7 +29,7 @@ function Farmers () {
         <Header routeImage = {require("assets/img/home-header.png")} title="Tecnologia" description ="Inovação, automação e segurança" filterColor="purple"/>
         <MaskDescriptionSection/>
         <ThreeLongImagesSection/>
-        <PlatformDescriptionSection/>
+        <TechnologyPlatformDescriptionSection/>
         <PlatformClientTypesSection/>
         <VideoModalSection title="Pecuária e Meio Ambiente" miniTitle="Nucleo de Divulgação Científica" videoId="qRSm4nUV34s" videoImage={require("assets/img/portrait-video.png")}/>
         <Footer />

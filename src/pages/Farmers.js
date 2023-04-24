@@ -2,12 +2,7 @@ import React from 'react';
 // core components
 import MyNavbar from "components/MyNavbar.js";
 import Header from "components/Header.js";
-import MaskSection from './sections/TheBeginningSection';
-import VideoModalSection from './sections/VideoModalSection';
 import Footer from "components/Footer.js";
-import AboutStaffSection from './sections/AboutStaffSection';
-import AboutBettingSection from './sections/AboutBettingSection';
-import MoSection from './sections/FgvSection';
 
 function Farmers () {
   React.useEffect(() => {

@@ -2,11 +2,11 @@ import React from 'react';
 // core components
 import MyNavbar from "components/MyNavbar.js";
 import Header from "components/Header.js";
-import TheBeginningSection from './sections/TheBeginningSection';
+import TheBeginningSection from './sections/AboutTheBeginningSection';
 import Footer from "components/Footer.js";
 import AboutStaffSection from './sections/AboutStaffSection';
 import AboutBettingSection from './sections/AboutBettingSection';
-import FgvSection from './sections/FgvSection';
+import AboutFgvSection from './sections/AboutFgvSection';
 
 function About () {
   React.useEffect(() => {
@@ -27,7 +27,7 @@ function About () {
       <div className="wrapper">
         <Header routeImage = {require("assets/img/about-header.jpg")} title="Nossa equipe" description ="Compromisso, proximidade e dedicação" filterColor="blue"/>
         <TheBeginningSection/>
-        <FgvSection/>
+        <AboutFgvSection/>
         <AboutStaffSection/>
         <AboutBettingSection/>
         <Footer />
