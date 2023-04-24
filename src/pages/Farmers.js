@@ -2,12 +2,12 @@ import React from 'react';
 // core components
 import MyNavbar from "components/MyNavbar.js";
 import Header from "components/Header.js";
-import BrandsSection from './sections/BrandsSection';
+import MaskSection from './sections/TheBeginningSection';
 import VideoModalSection from './sections/VideoModalSection';
 import Footer from "components/Footer.js";
 import AboutStaffSection from './sections/AboutStaffSection';
 import AboutBettingSection from './sections/AboutBettingSection';
-import MoSection from './sections/MoSection';
+import MoSection from './sections/FgvSection';
 
 function Farmers () {
   React.useEffect(() => {
@@ -27,11 +27,6 @@ function Farmers () {
       <MyNavbar navbarSolidColor="black"/>
       <div className="wrapper">
         <Header routeImage = {require("assets/img/farmers-header.png")} title="Fazendeiros" description ="Motivação, responsabilidade e paixão " filterColor="dark-orange"/>
-        <BrandsSection/>
-        <AboutBettingSection/>
-        <MoSection/>
-        <AboutStaffSection/>
-        <VideoModalSection title="Discovering technologies" miniTitle="Oscar Orellana" videoId="bab4ncfp3IA" videoImage={require("assets/img/monkey-desk.jpg")}/>
         <Footer />
       </div>
     </>
