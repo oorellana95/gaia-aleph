@@ -6,18 +6,18 @@ function AboutBettingSection() {
     const items = [
         {
             src: require("assets/img/carousel1.jpg"),
-            altText: "New Cupra Leon",
-            caption: "New Cupra Leon",
+            altText: "Cuidando os Animais",
+            caption: "Cuidando os Animais",
         },
         {
             src: require("assets/img/carousel2.jpg"),
-            altText: "Seat el Born",
-            caption: "Seat el Born",
+            altText: "Pensando no Planeta",
+            caption: "Pensando no Planeta",
         },
         {
             src: require("assets/img/carousel3.jpg"),
-            altText: "Seat MiniMo",
-            caption: "Seat MiniMo",
+            altText: "Contribuindo na Sociedade",
+            caption: "Contribuindo na Sociedade",
         },
     ];
 
@@ -27,7 +27,7 @@ function AboutBettingSection() {
                 <Container className="p-5">
                     <Row>
                         <Col md={6} className="mx-auto text-center mb-3 section-heading">
-                            <h2 className="mb-5">Betting on electricity</h2>
+                            <h2 className="mb-5">Apostando na terra</h2>
                         </Col>
                     </Row>
                     <Carousel items={items} />
