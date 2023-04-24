@@ -2,6 +2,12 @@
   color: #009DFF;
 }
 
+p {
+  line-height: 1.75em;
+  font-weight: 300;
+  font-size: 1.25em;
+}
+
 ul {
   padding-inline-start: 0em;
 }
@@ -12,6 +18,13 @@ ul li {
   font-weight: 300;
   font-size: 1.2em;
 }
+
+ol li {
+  line-height: 1.61em;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
 
 .badge {
   font-size: 1em;
@@ -102,7 +115,7 @@ span.small {
   /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(117, 3, 224, 0.4));
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(70, 10, 127, 0.4));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(70, 10, 127, 0.259));
   /* Standard syntax */
 }
 
@@ -115,7 +128,7 @@ span.small {
   /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(3, 161, 224, 0.4));
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(13, 46, 60, 0.4));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(17, 69, 92, 0.521));
   /* Standard syntax */
 }
 
@@ -128,7 +141,7 @@ span.small {
   /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(117, 3, 224, 0.4));
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(255, 141, 35, 0.3));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(255, 141, 35, 0.188));
   /* Standard syntax */
 }
 
@@ -260,9 +273,9 @@ span.small {
   margin-top: 40px;
 }
 
-/* ------------------- HOME: Brand Section ------------------ */
+/* ------------------- HOME: MaskIntroduction Section ------------------ */
 
-.Brands-section .section-title span {
+.MaskIntroduction-section .section-title span {
   color: #f96332;
   font-size: 14px;
   font-weight: 400;
@@ -270,7 +283,7 @@ span.small {
   display: block;
 }
 
-.Brands-section .info p {
+.MaskIntroduction-section .info p {
   font-size: 16px;
   line-height: 28px;
   margin-top: 0;
@@ -278,12 +291,12 @@ span.small {
 }
 
 @media (max-width: 767px) {
-  .Brands-section .info a {
+  .MaskIntroduction-section .info a {
     margin-bottom: 30px
   }
 }
 
-.Brands-section .about-thumb {
+.MaskIntroduction-section .about-thumb {
   -webkit-justify-content: flex-end;
   -moz-justify-content: flex-end;
   -ms-justify-content: flex-end;
@@ -292,7 +305,7 @@ span.small {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .Brands-section .about-thumb {
+  .MaskIntroduction-section .about-thumb {
     -webkit-justify-content: flex-start;
     -moz-justify-content: flex-start;
     -ms-justify-content: flex-start;
@@ -302,11 +315,11 @@ span.small {
   }
 }
 
-.Brands-section .about-thumb img {
+.MaskIntroduction-section .about-thumb img {
   width: 100%;
 }
 
-.Brands-section .about-thumb .img_2 {
+.MaskIntroduction-section .about-thumb .img_2 {
   margin-top: 40px;
   margin-left: 20px;
 }
@@ -322,8 +335,6 @@ span.small {
 }
 
 .MaskDescription-section .info p {
-  font-size: 16px;
-  line-height: 28px;
   margin-top: 0;
   margin-bottom: 35px
 }
@@ -345,8 +356,6 @@ span.small {
 }
 
 .PlatformDescription-section .info p {
-  font-size: 16px;
-  line-height: 28px;
   margin-top: 0;
   margin-bottom: 35px
 }
@@ -392,7 +401,7 @@ span.small {
 
 
 
-/* ------------------- TECNOLOGY: Offers Area ------------------ */
+/* ------------------- TECNOLOGY: VisibilidadeDaPlataforma Section ------------------ */
 
 .VisibilidadeDaPlataforma-section .single_offers .about_thumb {
   overflow: hidden
@@ -493,6 +502,86 @@ span.small {
   border: 1px solid #000;
   text-transform: capitalize;
   padding: 12px 27px
+}
+
+
+/* ------------------- ABOUT: TheBeginning Section ------------------ */
+
+.TheBeginning-section .section-title span {
+  color: #f96332;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.TheBeginning-section .info p {
+  margin-top: 0;
+  margin-bottom: 35px
+}
+
+@media (max-width: 767px) {
+  .TheBeginning-section .info a {
+    margin-bottom: 30px
+  }
+}
+
+/* ------------------- ABOUT: FGV Section ------------------ */
+
+.Fgv-section .section-title span {
+  color: #f96332;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.Fgv-section .info p {
+  margin-top: 0;
+  margin-bottom: 35px
+}
+
+.Fgv-section ol {
+  margin-top: -15px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+}
+
+.Fgv-section ol li {
+  position: relative;
+  z-index: 9;
+  padding-left: 23px;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+
+.Fgv-section .about-thumb {
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  justify-content: flex-end;
+  -ms-flex-pack: flex-end
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Fgv-section .about-thumb {
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    margin-top: 30px;
+  }
+}
+
+.Fgv-section .about-thumb img {
+  width: 100%;
+}
+
+.Fgv-section .about-thumb .img_2 {
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 /* ------------------- HOME: Video Area ------------------ */
