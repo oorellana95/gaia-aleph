@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 function MaskIntroductionSection() {
     return (
         <>
-            <div className="Brands-section site-section first">
+            <div className="MaskIntroduction-section site-section first">
                 <Container>
                     <Row>
                         <Col lg={5} xl={5}>
