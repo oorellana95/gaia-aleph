@@ -89,7 +89,7 @@ span.small {
       background: linear-gradient(#2CA8FF, #2c2c2c 80%);
       */
     background: #F96332 !important;
-    background: linear-gradient(brown, #2c2c2c 80%) !important;
+    background: linear-gradient(rgba(38, 38, 111, 0.544), #2c2c2c 80%) !important;
   }
 }
 

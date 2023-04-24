@@ -39,17 +39,19 @@ function AboutFgvSection() {
                 </Container>
                 <Container>
                     <Row >
-                        <div className="info">
-                            <div className="section-title mb-20px mt-5">
-                                <h3>Referências da metodologia</h3>
+                        <Col lg={12} xl={12}>
+                            <div className="info">
+                                <div className="section-title mb-20px mt-5">
+                                    <h3>Referências da metodologia</h3>
+                                </div>
+                                <p>Essas prácticas de craçao de empresas podem ser encontradas nos três livros a seguir:</p>
+                                <ol>
+                                    <li>Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers (Alexander Osterwalder, Yves Pigneur)</li>
+                                    <li>The Lean Startup (Eric Ries)</li>
+                                    <li>The Startup Owner's Manual: The Step-by-Step Guide for Building a Great Company (Steve Blank)</li>
+                                </ol>
                             </div>
-                            <p>Essas prácticas de craçao de empresas podem ser encontradas nos três livros a seguir:</p>
-                            <ol>
-                                <li>Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers (Alexander Osterwalder, Yves Pigneur)</li>
-                                <li>The Lean Startup (Eric Ries)</li>
-                                <li>The Startup Owner's Manual: The Step-by-Step Guide for Building a Great Company (Steve Blank)</li>
-                            </ol>
-                        </div>
+                        </Col>
                     </Row>
                 </Container>
             </div>
