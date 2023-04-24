@@ -33,7 +33,7 @@ function Home () {
         
         <div className="main">
           <HomeLandingSection/>
-          <VideoModalSection title="Entendendo o Problema" miniTitle="Observatório do Clima" videoId="VNsja2bEEAA" videoImage={require("assets/img/portrait-video.png")}/>
+          <VideoModalSection title="Entendendo o Problema" miniTitle="Observatório do Clima" videoId="VNsja2bEEAA" videoImage={require("assets/img/portrait-video-home.png")}/>
           <MaskIntroductionSection/>
           <PlatformClientTypesSection/>
           <HomeMapSection/>
