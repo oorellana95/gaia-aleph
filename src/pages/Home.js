@@ -6,7 +6,6 @@ import Footer from "components/Footer.js";
 import HomeLandingSection from './sections/HomeLandingSection';
 import MaskIntroductionSection from './sections/HomeMaskIntroductionSection';
 import HomeMapSection from './sections/HomeMapSection';
-import AboutBettingSection from './sections/AboutBettingSection';
 import VideoModalSection from './sections/VideoModalSection';
 import PlatformClientTypesSection from './sections/PlatformClientTypesSection';
 
