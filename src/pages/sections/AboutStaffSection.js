@@ -7,21 +7,21 @@ function AboutStaffSection() {
     const staff = [
         {
             name: 'Rafael Coelho',
-            description: 'Principal fundador e promotor de inovação tecnológica no setor agropecuário.',
+            description: 'Responsável pelo setor de Pesquisa e Desenvolvimento',
             hrefLinkdIn: 'https://www.linkedin.com/in/rafael-coelho-de-souza-krzonkalla-1a38781b4/',
             img: require("assets/img/raphael-staff.jpg"),
             flipped: require("assets/mp4/flipped_hitos.mp4")
         },
         {
             name: 'Pedro Gaya',
-            description: 'Navigator inteligencia em investimentos e desenvolvimento de projetos.',
+            description: 'Supervisor de Finanças e Operações',
             hrefLinkdIn: 'https://www.linkedin.com/in/plgaya/',
             img: require("assets/img/gaia-staff.jpg"),
             flipped: require("assets/mp4/flipped_lara.mp4")
         },
         {
             name: 'Oscar Orellana',
-            description: 'Técnico de plataformas e sistemas informáticos.',
+            description: 'Técnico de Plataformas e Sistemas Informáticos',
             hrefLinkdIn: 'https://www.linkedin.com/in/oscar-orellana-gonzalez-15535b16a/',
             img: require("assets/img/oorellana.jpg"),
             flipped: require("assets/mp4/flipped_orellana.mp4")

@@ -13,8 +13,7 @@ function TheBeginningSection() {
                                     <span>Nosso inicio</span>
                                     <h3>Empresa com cultura Gaia</h3>
                                 </div>
-                                <p>Fundada blabla, pepe, propósito Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui diam, convallis vel velit sit amet, venenatis sollicitudin augue. Phasellus eget tempor ex. Mauris luctus elementum eros non lacinia. Aenean in orci et lorem lobortis cursus at sit amet quam. Maecenas dignissim laoreet nunc non pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque commodo ultrices mauris quis ullamcorper. Nam tincidunt velit ac nisl ullamcorper, non porta magna pretium.</p>
-                                <p>Cultura Gaia: Atividades sociais, transparentes, focada a innovaçao... Phasellus tempor egestas magna, vitae mollis nibh accumsan vel. Mauris convallis dolor in justo tincidunt, ullamcorper dictum tortor tristique. Proin quam sem, vestibulum vel luctus ac, elementum et urna. Donec dignissim nibh nibh. Suspendisse pellentesque ante a ipsum auctor ullamcorper. Nullam sem metus, dictum vitae facilisis sit amet, accumsan sit amet massa. Sed nec tortor diam. Etiam est lorem, aliquet eget erat vitae, porttitor pellentesque urna.</p>
+                                <p>A Gaia prioriza a sustentabilidade, a responsabilidade e os relacionamentos com produtores parceiros como pilares da empresa. Nosso objetivo é simultaneamente defender o meio ambiente e impulsionar os produtores rurais, beneficiando o país como um todo. Ademais, acreditamos ser crucial garantir o bem-estar dos animais, e portanto realizamos testes rigorosos para assegurar sua qualidade de vida.</p>
                             </div>
                         </Col>
                     </Row>
