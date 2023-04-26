@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gaia-aleph/static/css/main.c032d87c.chunk.css",
-    "main.js": "/gaia-aleph/static/js/main.1c145251.chunk.js",
-    "main.js.map": "/gaia-aleph/static/js/main.1c145251.chunk.js.map",
+    "main.js": "/gaia-aleph/static/js/main.761d704c.chunk.js",
+    "main.js.map": "/gaia-aleph/static/js/main.761d704c.chunk.js.map",
     "runtime-main.js": "/gaia-aleph/static/js/runtime-main.3b50deec.js",
     "runtime-main.js.map": "/gaia-aleph/static/js/runtime-main.3b50deec.js.map",
     "static/css/2.e6ac38db.chunk.css": "/gaia-aleph/static/css/2.e6ac38db.chunk.css",
     "static/js/2.ff618ba3.chunk.js": "/gaia-aleph/static/js/2.ff618ba3.chunk.js",
     "static/js/2.ff618ba3.chunk.js.map": "/gaia-aleph/static/js/2.ff618ba3.chunk.js.map",
     "index.html": "/gaia-aleph/index.html",
-    "precache-manifest.0f9f336a9549dcbbaacf3694516f244c.js": "/gaia-aleph/precache-manifest.0f9f336a9549dcbbaacf3694516f244c.js",
+    "precache-manifest.00be87c702c03d720d61f5cf4d52c2f3.js": "/gaia-aleph/precache-manifest.00be87c702c03d720d61f5cf4d52c2f3.js",
     "service-worker.js": "/gaia-aleph/service-worker.js",
     "static/css/2.e6ac38db.chunk.css.map": "/gaia-aleph/static/css/2.e6ac38db.chunk.css.map",
     "static/css/main.c032d87c.chunk.css.map": "/gaia-aleph/static/css/main.c032d87c.chunk.css.map",
@@ -73,6 +73,6 @@
     "static/css/2.e6ac38db.chunk.css",
     "static/js/2.ff618ba3.chunk.js",
     "static/css/main.c032d87c.chunk.css",
-    "static/js/main.1c145251.chunk.js"
+    "static/js/main.761d704c.chunk.js"
   ]
 }
