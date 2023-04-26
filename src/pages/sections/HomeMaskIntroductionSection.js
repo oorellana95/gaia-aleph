@@ -14,8 +14,8 @@ function MaskIntroductionSection() {
                                     <span>Máscara e plataforma</span>
                                     <h3>Mais um passo transformando nossas fazendas e mundo</h3>
                                 </div>
-                                <p>Aparelho facial bovino para converter metano em dióxido de carbono e água, reduzindo o efeito estufa resultante. É um equipamento confortável e seguro que contribui positivamente para a atividade pecuária, pois além de realizar a conversão e ganhar créditos de carbono, também permite obter dados relacionados à saúde e localização do animal.</p>
-                                <p>A plataforma é a ferramenta para monitorar as atividades das máscaras, o estado dos bovinos e também permite vender os créditos gerados por as máscaras direitamente ao mercado.</p>
+                                <p>O nosso dispositivo converte o metano liberado pelo gado em dióxido de carbono e água, reduzindo o impacto da pecuária no clima. É um equipamento confortável e seguro, gerador de créditos de carbono que podem ser vendidos no mercado e portanto elevam a lucratividade do setor.</p>
+                                <p>Nossa plataforma permite monitorar o status de cada máscara e acessar o mercado de carbono, onde você será pago generosamente por ter contribuído para o combate ao aquecimento global. O retorno anual de investir em nosso produto é de cerca de 300%.</p>
                                 <Link to={"/technology"}><span className="line-button">Saiba Mais</span></Link>
                             </div>
                         </Col>

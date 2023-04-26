@@ -7,25 +7,24 @@ function PlatformClientTypesSection() {
 
     const offers = [
         {
-            title: 'Fazendeiro Única',
-            description: 'Bovinos agrupados em um único grupo',
-            point1: 'Disponibilidade de tudos os gráficos da plataforma',
-            point2: 'Area de control e comunicaçao direita com o equipo Gaia',
+            title: 'Empresas com uma única propriedade',
+            point1: 'Dados detalhados e individualizados',
+            point2: 'Gráficos com informações agregadas',
+            point3: 'Canal de comunicação direta com a Gaia',
             img: require("assets/img/platform-visibility1.png")
         },
         {
-            title: 'Fazendeiro Multipla',
-            description: 'Bovinos agrupados em diferentes grupos',
-            point1: 'Opções adicionais para ver os dados agrupados',
-            point2: 'Opções adicionais para contrastar os dados entre grupo',
+            title: 'Empresas com múltiplas propriedades',
+            point1: 'Todos os benefícios das propriedades únicas',
+            point2: 'Dados conjuntos e de cada fazenda',
+            point3: 'Comparativos entre cada área',
             img: require("assets/img/platform-visibility2.png")
         },
         {
-            title: 'Parceiro e Outros',
-            description: 'Pode ver e agrupar os dados do seus parceiros',
-            point1: 'Opções adicionais para ver os dados invividuais dos fazenderos',
-            point2: 'Opções adicionais para ver dados de fazendeiros agrupados',
-            point3: 'Dados em relação à receita dos produtores são eliminados',
+            title: 'Parceiros, Compradores de Crédito e Outros',
+            point1: 'Dados em blockchain de cada máscara',
+            point2: 'Verificação independente da eliminação do metano',
+            point3: 'Gráficos interativos para mensurar o impacto e performance históricos',
             img: require("assets/img/platform-visibility3.png")
         }]
 

@@ -8,15 +8,15 @@ function HomeLandingSection() {
     const items = [
         {
             name: 'Melhore o bem-estar animal',
-            description: 'Tenha um melhor monitoramento da condição dos seus bovinos.',
+            description: 'Tenha um melhor monitoramento da condição do seu gado.',
         },
         {
-            name: 'Reduza as emissões de methano',
+            name: 'Reduza as emissões de metano',
             description: 'Faça um impacto muito positivo para o planeta combatendo o efeito estufa.',
         },
         {
             name: 'Ganhe créditos de carbono',
-            description: 'Gera créditos e vendendo-os no mercado de créditos de carbono.',
+            description: 'Gera e vende créditos no mercado de carbono.',
         }]
 
     return (

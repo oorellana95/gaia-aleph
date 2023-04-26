@@ -28,7 +28,7 @@ class Footer extends React.Component {
               <ul>
                 <li>Edifício Luiz Simões Lopes, Praia de Botafogo, 190 - 11º Andar - Botafogo, Rio de Janeiro - RJ, 22250-900</li>
                 <br /><br />
-                <li>Rafael: coelhorafael8@gmail.com</li>
+                <li>coelhorafael8@gmail.com</li>
               </ul>
             </Col>
           </Row>
