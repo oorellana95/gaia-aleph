@@ -59,8 +59,7 @@ ReactDOM.render(
               path="/pikaemail"
               render={(props) => <PikachuEmail {...props} />}
             />
-            <Redirect to="/home" />
-            <Redirect from="/" to="/home" />
+            <Redirect from="*" to="/home" />
           </Switch>
         </BrowserRouter>
       </PersistGate>
