@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d01581dc75c76ba120a555ffadb0603a",
+    "revision": "3f6de555d19aa67e9ca7951a335de52f",
     "url": "/gaia-aleph/index.html"
   },
   {
-    "revision": "138597143e9d4d5820ec",
+    "revision": "66c6b11f57167420878e",
     "url": "/gaia-aleph/static/css/2.e6ac38db.chunk.css"
   },
   {
-    "revision": "d3831a49ddaafea4dac4",
-    "url": "/gaia-aleph/static/css/main.c032d87c.chunk.css"
+    "revision": "0c304d8b804efcb1fcba",
+    "url": "/gaia-aleph/static/css/main.a0d8c3f4.chunk.css"
   },
   {
-    "revision": "138597143e9d4d5820ec",
-    "url": "/gaia-aleph/static/js/2.ff618ba3.chunk.js"
+    "revision": "66c6b11f57167420878e",
+    "url": "/gaia-aleph/static/js/2.41cff7de.chunk.js"
   },
   {
     "revision": "4557c15fd8984004468e8d016ab0ee8b",
-    "url": "/gaia-aleph/static/js/2.ff618ba3.chunk.js.LICENSE.txt"
+    "url": "/gaia-aleph/static/js/2.41cff7de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d3831a49ddaafea4dac4",
-    "url": "/gaia-aleph/static/js/main.761d704c.chunk.js"
+    "revision": "0c304d8b804efcb1fcba",
+    "url": "/gaia-aleph/static/js/main.55f4f5f5.chunk.js"
   },
   {
     "revision": "1abfa979182062f29f76",
@@ -192,8 +192,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gaia-aleph/static/media/interreto.cb65e3f1.png"
   },
   {
-    "revision": "702e3055b5e69c1773c41659e7bb7c53",
-    "url": "/gaia-aleph/static/media/logo-gaia.702e3055.png"
+    "revision": "77901c1f370b2db29ccbd2bf0cbde49f",
+    "url": "/gaia-aleph/static/media/logo-gaia.77901c1f.png"
+  },
+  {
+    "revision": "c3e0dbd82c152aef87afe1e5244f70bc",
+    "url": "/gaia-aleph/static/media/logo-gaia.c3e0dbd8.svg"
   },
   {
     "revision": "fe3d38157131470aea40d478f3eb4149",
