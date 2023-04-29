@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7c9c921ac6a9569d4b9c7b0231d3c5d",
+    "revision": "d59a7fde5354621b4dea2b95f1e7d6f4",
     "url": "/gaia-aleph/index.html"
   },
   {
-    "revision": "66c6b11f57167420878e",
+    "revision": "2f155feac6e1326b40e4",
     "url": "/gaia-aleph/static/css/2.e6ac38db.chunk.css"
   },
   {
-    "revision": "2394769b9f3ca365dc12",
+    "revision": "2288415731eb6bf940ec",
     "url": "/gaia-aleph/static/css/main.34459e5d.chunk.css"
   },
   {
-    "revision": "66c6b11f57167420878e",
-    "url": "/gaia-aleph/static/js/2.41cff7de.chunk.js"
+    "revision": "2f155feac6e1326b40e4",
+    "url": "/gaia-aleph/static/js/2.7126cf86.chunk.js"
   },
   {
     "revision": "4557c15fd8984004468e8d016ab0ee8b",
-    "url": "/gaia-aleph/static/js/2.41cff7de.chunk.js.LICENSE.txt"
+    "url": "/gaia-aleph/static/js/2.7126cf86.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2394769b9f3ca365dc12",
-    "url": "/gaia-aleph/static/js/main.081bdb7b.chunk.js"
+    "revision": "2288415731eb6bf940ec",
+    "url": "/gaia-aleph/static/js/main.e04a0133.chunk.js"
   },
   {
     "revision": "1abfa979182062f29f76",
