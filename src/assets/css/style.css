@@ -89,7 +89,7 @@ span.small {
       background: linear-gradient(#2CA8FF, #2c2c2c 80%);
       */
     background: #183c28 !important;
-    background: linear-gradient(rgba(38, 38, 111, 0.544), #2c2c2c 80%) !important;
+    background: linear-gradient(#183c28, #000 80%) !important;
   }
 }
 
@@ -211,6 +211,12 @@ span.small {
   .site-section {
     padding: 5.25em 0;
   }
+}
+
+.navbar-logo {
+  filter: brightness(0) invert(1);
+  width: 85px;
+  margin: -10px 0px;
 }
 
 .brand .h1-seo {

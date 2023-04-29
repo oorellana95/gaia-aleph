@@ -11,6 +11,7 @@ import {
   Container,
   UncontrolledTooltip,
 } from "reactstrap";
+import Logo from "assets/img/logo-gaia.svg"
 
 function MyNavbar(props) {
   const [navbarColor, setNavbarColor] = React.useState((props.solid) ? "" : "navbar-transparent");
@@ -57,7 +58,7 @@ function MyNavbar(props) {
               id="navbar-brand"
               to="/" tag={Link}
             >
-              GAIA ALEPH
+              <img className="navbar-logo" src={Logo} alt="logo"/>
             </NavbarBrand>
 
             <UncontrolledTooltip target="#navbar-brand">
