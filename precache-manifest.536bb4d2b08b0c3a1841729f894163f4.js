@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51c351dedc0aaf0480a860594b478a74",
+    "revision": "c7c9c921ac6a9569d4b9c7b0231d3c5d",
     "url": "/gaia-aleph/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gaia-aleph/static/css/2.e6ac38db.chunk.css"
   },
   {
-    "revision": "cb04710922bf5346c828",
+    "revision": "2394769b9f3ca365dc12",
     "url": "/gaia-aleph/static/css/main.34459e5d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gaia-aleph/static/js/2.41cff7de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cb04710922bf5346c828",
-    "url": "/gaia-aleph/static/js/main.55f4f5f5.chunk.js"
+    "revision": "2394769b9f3ca365dc12",
+    "url": "/gaia-aleph/static/js/main.081bdb7b.chunk.js"
   },
   {
     "revision": "1abfa979182062f29f76",
