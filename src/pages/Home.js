@@ -8,6 +8,8 @@ import MaskIntroductionSection from './sections/HomeMaskIntroductionSection';
 import HomeMapSection from './sections/HomeMapSection';
 import VideoModalSection from './sections/VideoModalSection';
 import PlatformClientTypesSection from './sections/PlatformClientTypesSection';
+import ActionFormSection from './sections/ActionFormSection';
+import FixedActionButton from 'components/FixedActionButton';
 
 function Home () {
   React.useEffect(() => {
@@ -35,11 +37,11 @@ function Home () {
           <VideoModalSection title="Entendendo o Problema" miniTitle="Observatório do Clima" videoId="VNsja2bEEAA" videoImage={require("assets/img/portrait-video-home.png")}/>
           <MaskIntroductionSection/>
           <PlatformClientTypesSection/>
+          <ActionFormSection/>
           <HomeMapSection/>
+          <FixedActionButton/>
         </div>
-
         <Footer />
-
       </div>
     </>
   );

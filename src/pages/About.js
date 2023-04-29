@@ -7,6 +7,8 @@ import Footer from "components/Footer.js";
 import AboutStaffSection from './sections/AboutStaffSection';
 import AboutBettingSection from './sections/AboutBettingSection';
 import AboutFgvSection from './sections/AboutFgvSection';
+import ActionFormSection from './sections/ActionFormSection';
+import FixedActionButton from 'components/FixedActionButton';
 
 function About () {
   React.useEffect(() => {
@@ -30,6 +32,8 @@ function About () {
         <AboutFgvSection/>
         <AboutStaffSection/>
         <AboutBettingSection/>
+        <ActionFormSection/>
+        <FixedActionButton/>
         <Footer />
       </div>
     </>

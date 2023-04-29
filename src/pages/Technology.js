@@ -8,6 +8,7 @@ import VideoModalSection from './sections/VideoModalSection';
 import Footer from "components/Footer.js";
 import PlatformClientTypesSection from './sections/PlatformClientTypesSection';
 import TechnologyPlatformDescriptionSection from './sections/TechnologyPlatformDescriptionSection';
+import FixedActionButton from 'components/FixedActionButton';
 
 function Farmers () {
   React.useEffect(() => {
@@ -32,6 +33,7 @@ function Farmers () {
         <TechnologyPlatformDescriptionSection/>
         <PlatformClientTypesSection/>
         <VideoModalSection title="Pecuária e Meio Ambiente" miniTitle="Nucleo de Divulgação Científica" videoId="qRSm4nUV34s" videoImage={require("assets/img/portrait-video.png")}/>
+        <FixedActionButton/>
         <Footer />
       </div>
     </>
