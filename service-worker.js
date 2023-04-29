@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gaia-aleph/precache-manifest.7d522837e08dc555dae80cfb5bcf1ed5.js"
+  "/gaia-aleph/precache-manifest.a31c7692e237f584f98563bd56197c38.js"
 );
 
 self.addEventListener('message', (event) => {
