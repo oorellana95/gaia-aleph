@@ -672,6 +672,42 @@ span.small {
   opacity: .5
 }
 
+
+/* ------------------- HOME: ActionForm Section ------------------ */
+
+.form-boxed-btn {
+  background: #EEC643;
+  padding: 24px 44px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #000;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #000 !important;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20%;
+}
+
+.form-boxed-btn span {
+  margin-left: 15px;
+}
+
+
+.form-boxed-btn:hover {
+  background: #000;
+  color: #fff !important;
+  border: 1px solid #000
+}
+
+.form-boxed-btn:focus {
+  outline: none
+}
 /* */
 
 .media {
@@ -749,6 +785,48 @@ span.small {
   -webkit-transform: translateX(0%);
   -ms-transform: translateX(0%);
   transform: translateX(0%);
+}
+
+/* ------------------- GENERAL: FixedActionButton ------------------ */
+
+.fixed-action-btn {
+  background: #EEC643;
+  padding: 18px 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  border: 0;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #000 !important;
+  text-transform: uppercase;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20%;
+}
+
+.fixed-action-btn span {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+
+.fixed-action-btn:hover {
+  background: #000;
+  color: #fff !important;
+  border: 1px solid #000
+}
+
+.fixed-action-btn:focus {
+  outline: none
+}
+
+.fixed-actions-bottom {
+  position: fixed;
+  bottom: 2%;
+  left: 85%;
+  z-index: 1030;
 }
 
 /* ------------------- ABOUT: Staff Section (Frames) ------------------ */
