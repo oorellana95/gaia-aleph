@@ -37,7 +37,7 @@ function HomeLandingSection() {
                     </Row>
                     <Row>
                         <Col md={6} className="mx-auto text-center">
-                            <Link to={"/farmers"}>
+                            <Link to={"/technology"}>
                                 <span className="line-button">Saiba Mais</span>
                             </Link>
                             

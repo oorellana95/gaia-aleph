@@ -87,13 +87,13 @@ function MyNavbar(props) {
           >
             <Nav navbar>
               <NavItem>
-                <NavLink to="/technology" tag={Link}>
-                  Tecnologia
+                <NavLink to="/home" tag={Link}>
+                  Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/farmers" tag={Link}>
-                  Fazendeiros
+                <NavLink to="/technology" tag={Link}>
+                  Tecnologia
                 </NavLink>
               </NavItem>
               <NavItem>
