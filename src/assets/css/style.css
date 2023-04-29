@@ -497,14 +497,14 @@ span.small {
   font-size: 14px;
   text-transform: capitalize;
   padding: 12px 27px;
-  background: #2c2c2c;
+  background: #183C28;
   color: #fff !important;
   text-decoration: none;
   border: 1px solid #000;
 }
 
 .VisibilidadeDaPlataforma-section .btn-contact:hover {
-  background: rgb(216, 206, 206);
+  background: #BEBFC4;
   display: inline-block;
   font-size: 14px;
   color: #000 !important;
