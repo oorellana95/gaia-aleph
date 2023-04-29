@@ -26,7 +26,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
           <Switch>
             <Route
               path="/home"
