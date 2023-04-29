@@ -24,7 +24,7 @@ function Farmers () {
   
   return (
     <>
-      <MyNavbar navbarSolidColor="black"/>
+       <MyNavbar navbarSolidColor="dark-green"/>
       <div className="wrapper">
         <Header routeImage = {require("assets/img/home-header.png")} title="Tecnologia" description ="Inovação, automação e segurança" filterColor="purple"/>
         <MaskDescriptionSection/>

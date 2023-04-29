@@ -19,7 +19,7 @@ function Farmers () {
   
   return (
     <>
-      <MyNavbar navbarSolidColor="black"/>
+      <MyNavbar navbarSolidColor="dark-green"/>
       <div className="wrapper">
         <Header routeImage = {require("assets/img/farmers-header.png")} title="Fazendeiros" description ="Motivação, responsabilidade e paixão " filterColor="dark-orange"/>
         <Footer />

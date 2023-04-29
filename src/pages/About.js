@@ -23,7 +23,7 @@ function About () {
   
   return (
     <>
-      <MyNavbar navbarSolidColor="black"/>
+      <MyNavbar navbarSolidColor="dark-green"/>
       <div className="wrapper">
         <Header routeImage = {require("assets/img/about-header.jpg")} title="Nossa equipe" description ="Compromisso, proximidade e dedicação" filterColor="blue"/>
         <TheBeginningSection/>

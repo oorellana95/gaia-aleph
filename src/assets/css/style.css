@@ -71,12 +71,12 @@ span.small {
 }
 
 .line-button:hover {
-  color: #f96332;
+  color: #183c28;
   text-decoration: none
 }
 
 .line-button:hover::before {
-  background: #f96332
+  background: #183c28
 }
 
 /* ------------------- HEADERS & NAV ------------------ */
@@ -88,7 +88,7 @@ span.small {
       background: #2CA8FF;
       background: linear-gradient(#2CA8FF, #2c2c2c 80%);
       */
-    background: #F96332 !important;
+    background: #183c28 !important;
     background: linear-gradient(rgba(38, 38, 111, 0.544), #2c2c2c 80%) !important;
   }
 }
@@ -166,6 +166,10 @@ span.small {
   background-color: #000 !important;
 }
 
+.bg-dark-green {
+  background-color: #183c28 !important;
+}
+
 .bg-grey {
   background-color: #4f4f4f !important;
 }
@@ -239,6 +243,11 @@ span.small {
   position: relative;
 }
 
+.footer {
+  background-color: #183c28;
+  color: #fff;
+}
+
 /* ------------------- GENERAL: ThreeLongImages Section ------------------ */
 
 .ThreeLongImages-section .about-thumb {
@@ -276,7 +285,7 @@ span.small {
 /* ------------------- HOME: MaskIntroduction Section ------------------ */
 
 .MaskIntroduction-section .section-title span {
-  color: #f96332;
+  color: #183c28;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -327,7 +336,7 @@ span.small {
 /* ------------------- TECHNOLOGY: MaskDescription Section ------------------ */
 
 .MaskDescription-section .section-title span {
-  color: #f96332;
+  color: #183c28;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -348,7 +357,7 @@ span.small {
 /* ------------------- TECHNOLOGY: PlatformDescription Section ------------------ */
 
 .PlatformDescription-section .section-title span {
-  color: #f96332;
+  color: #183c28;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -508,7 +517,7 @@ span.small {
 /* ------------------- ABOUT: TheBeginning Section ------------------ */
 
 .TheBeginning-section .section-title span {
-  color: #f96332;
+  color: #183c28;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -529,7 +538,7 @@ span.small {
 /* ------------------- ABOUT: FGV Section ------------------ */
 
 .Fgv-section .section-title span {
-  color: #f96332;
+  color: #183c28;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 15px;

@@ -24,11 +24,11 @@ function Home () {
   
   return (
     <>
-      <MyNavbar navbarSolidColor="black"/>
+      <MyNavbar navbarSolidColor="dark-green"/>
       
       <div className="wrapper">
         
-        <Header routeImage = {require("assets/img/home-header.png")} title="Gaia Aleph" description = "Reduza as emissões e ganhe créditos de carbono" filterColor="blue"/>
+        <Header routeImage = {require("assets/img/home-header.png")} title="Gaia Aleph" description = "Venha conhecer o dinheiro dos créditos de carbono" filterColor="blue"/>
         
         <div className="main">
           <HomeLandingSection/>

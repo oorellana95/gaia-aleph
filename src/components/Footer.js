@@ -8,7 +8,7 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <footer className="footer" data-background-color="black">
+      <footer className="footer">
         <Container>
           <Row>
             <Col lg={4} xs={12}>
