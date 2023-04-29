@@ -26,7 +26,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/gaia-aleph">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route
               path="/home"
