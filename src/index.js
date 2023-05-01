@@ -4,7 +4,7 @@ import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { store, persistor } from './store/store'
-import Analytics from 'react-router-ga';
+import Analytics from 'react-router-ga'
 
 // styles for this kit
 import "assets/css/bootstrap.min.css";
@@ -21,14 +21,13 @@ import Contact from "pages/Contact.js";
 import DetailsVehicle from "pages/DetailsVehicle.js";
 import ThankYou from "pages/ThankYou";
 import PikachuEmail from "pages/PikachuEmail";
-import Analytics from "react-router-ga"
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <HashRouter>
-          <Analytics id={process.env.REACTAPP_GOOGLE_ANALYTICS_ID}>
+          <Analytics id={process.env.REACT_APP_GOOGLE_ANALYTICS_ID} debug>
             <Switch>
               <Route
                 path="/home"
