@@ -29,9 +29,9 @@ function HomeLandingSection() {
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
-                        {items.map(item => {
+                        {items.map((item, index) => {
                             return (
-                                <Card name={item.name} description={item.description} />
+                                <Card key={index} name={item.name} description={item.description} />
                             )
                         })}
                     </Row>

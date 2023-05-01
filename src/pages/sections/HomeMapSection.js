@@ -46,9 +46,9 @@ function MapSection() {
                             <Map markers={markers} defaultCenter={defaultCenter} zoom={10} mini={true}/> {/* include it here */}
                         </Col>
                         <Col lg={3} className="mt-3" >
-                            {itemsContact.map(item => {
+                            {itemsContact.forEach((item, index) => {
                                 return (
-                                    <ItemContact name={item.name} description={item.description} icon={item.icon}/>
+                                    <ItemContact key={index} name={item.name} description={item.description} icon={item.icon}/>
                                 )
                             })}
                         </Col>
