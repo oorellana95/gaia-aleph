@@ -28,6 +28,7 @@
     "react-native": "^0.63.3",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
+    "react-router-ga": "^1.2.3",
     "react-script-tag": "^1.1.2",
     "react-scripts": "3.4.3",
     "reactstrap": "^8.6.0",
