@@ -37,9 +37,9 @@ function AboutStaffSection() {
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
-                        {staff.map(item => {
+                        {staff.forEach((item, index) => {
                             return (
-                                <FlippedCard name={item.name} description={item.description} hrefGit={item.hrefGit} hrefLinkdIn={item.hrefLinkdIn}  img={item.img} flipped={item.flipped}  />
+                                <FlippedCard key={index} name={item.name} description={item.description} hrefGit={item.hrefGit} hrefLinkdIn={item.hrefLinkdIn}  img={item.img} flipped={item.flipped}  />
                             )
                         })}
                     </Row>

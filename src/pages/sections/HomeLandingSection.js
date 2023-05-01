@@ -29,7 +29,7 @@ function HomeLandingSection() {
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
-                        {items.map((item, index) => {
+                        {items.forEach((item, index) => {
                             return (
                                 <Card key={index} name={item.name} description={item.description} />
                             )

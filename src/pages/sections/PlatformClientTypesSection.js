@@ -38,7 +38,7 @@ function PlatformClientTypesSection() {
                         </Col>
                     </Row>
                     <Row>
-                        {offers.map((item, index) => {
+                        {offers.forEach((item, index) => {
                             return (
                                 <TitleDescriptionListCard key={index} title={item.title} description={item.description}  point1={item.point1} point2={item.point2} point3={item.point3} img={item.img} />
                             )
