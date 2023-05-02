@@ -1,47 +1,41 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
 import Card from 'components/Card';
-import { Link } from 'react-router-dom';
 
 function HomeLandingSection() {
 
     const items = [
         {
-            name: 'Melhore o bem-estar animal',
-            description: 'Tenha um melhor monitoramento da condição do seu gado.',
+            name: 'Entre em contato com nossa equipe',
+            description: 'A equipe se encarregará de informar, treinar a equipe, equipar o gado com máscaras, instalar a plataforma em seus dispositivos e fornecer tudo o que você precisa para realizar a atividade.',
+            number: 1
         },
         {
-            name: 'Reduza as emissões de metano',
-            description: 'Faça um impacto muito positivo para o planeta combatendo o efeito estufa.',
+            name: 'Os bovinos usam o seu novo kit',
+            description: 'Os animais desenvolvem sua vida normal com as máscaras. Estas transformam metano em CO2 e o fazendeiro ganha créditos de carbono, ao mesmo tempo que há um maior controle sobre a saúde do bovino.',
+            number: 2
         },
         {
-            name: 'Ganhe créditos de carbono',
-            description: 'Gera e vende créditos no mercado de carbono.',
+            name: 'Gana dinheiro com a plataforma',
+            description: 'Os dados dos bovinos e os créditos de carbono são registrados e exibidos na plataforma. A partir daqui, o agricultor pode consultar os dados dos animais e trocar créditos por dinheiro real, aumentando seu lucro.',
+            number: 3
         }]
 
     return (
         <>
-            <div className="site-section first bg-light">
+            <div className="site-section first">
                 <Container>
                     <Row>
                         <Col md={6} className="mx-auto text-center mb-3 section-heading">
-                            <h2 className="mb-5">Se você é um fazendeiro</h2>
+                            <h2 className="mb-5">Como funciona?</h2>
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
-                        {items.forEach((item, index) => {
+                        {items.map((item, index) => {
                             return (
-                                <Card key={index} name={item.name} description={item.description} />
+                                <Card key={index} removeBorderBoxes={true} name={item.name} description={item.description} number={item.number} />
                             )
                         })}
-                    </Row>
-                    <Row>
-                        <Col md={6} className="mx-auto text-center">
-                            <Link to={"/technology"}>
-                                <span className="line-button">Saiba Mais</span>
-                            </Link>
-                            
-                        </Col>
                     </Row>
                 </Container>
             </div>
