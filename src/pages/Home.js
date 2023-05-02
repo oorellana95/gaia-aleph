@@ -3,6 +3,7 @@ import React from 'react';
 import MyNavbar from "components/MyNavbar.js";
 import Header from "components/Header.js";
 import Footer from "components/Footer.js";
+import HomeFarmerSection from './sections/HomeFarmerSection';
 import HomeLandingSection from './sections/HomeLandingSection';
 import MaskIntroductionSection from './sections/HomeMaskIntroductionSection';
 import HomeMapSection from './sections/HomeMapSection';
@@ -10,6 +11,7 @@ import VideoModalSection from './sections/VideoModalSection';
 import PlatformClientTypesSection from './sections/PlatformClientTypesSection';
 import ActionFormSection from './sections/ActionFormSection';
 import FixedActionButton from 'components/FixedActionButton';
+import HomeCommingSoonSection from './sections/HomeCommingSoonSection';
 
 function Home () {
   React.useEffect(() => {
@@ -32,8 +34,10 @@ function Home () {
         <Header routeImage = {require("assets/img/home-header.png")} title="Gaia Aleph" description = "Venha conhecer o dinheiro dos créditos de carbono" filterColor="blue"/>
         
         <div className="main">
+          <HomeCommingSoonSection/>
           <HomeLandingSection/>
           <VideoModalSection title="Entendendo o Problema" miniTitle="Observatório do Clima" videoId="VNsja2bEEAA" videoImage={require("assets/img/portrait-video-home.png")}/>
+          <HomeFarmerSection/>
           <MaskIntroductionSection/>
           <PlatformClientTypesSection/>
           <ActionFormSection/>
