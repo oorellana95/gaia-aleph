@@ -27,7 +27,7 @@ ReactDOM.render(
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <HashRouter>
-          <Analytics id={process.env.REACT_APP_GOOGLE_ANALYTICS_ID} debug>
+          <Analytics id={process.env.REACT_APP_GOOGLE_ANALYTICS_ID}>
             <Switch>
               <Route
                 path="/home"
