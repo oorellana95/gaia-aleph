@@ -567,7 +567,6 @@ span.small {
   z-index: 9;
   padding-left: 23px;
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
-
 }
 
 
@@ -1640,3 +1639,23 @@ span.small {
   border: 2px solid black;
   text-decoration: none;
 }
+
+.circle-frame {
+  padding-top: 40px !important;
+  padding-bottom: 30px !important;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+.number-circle {
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    padding: 10px;
+    background: #EEC643;
+    border: 2.5px solid #000;
+    color: #000;
+    text-align: center;
+    font-size: 46px;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  }
