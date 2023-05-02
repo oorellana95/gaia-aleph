@@ -32,7 +32,7 @@ function MaskIntroductionSection() {
                                     <img
                                         alt="..."
                                         className="n-logo img-raised"
-                                        src={require("assets/img/cow-mask2.png")}
+                                        src={require("assets/img/cow-mask0x.png")}
                                     ></img>
                                 </div>
                             </div>
