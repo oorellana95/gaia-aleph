@@ -11,13 +11,13 @@ function HomeLandingSection() {
             number: 1
         },
         {
-            name: 'Os bovinos usam o seu novo kit',
+            name: 'O gado usa o seu novo kit',
             description: 'Os animais desenvolvem sua vida normal com as máscaras. Estas transformam metano em CO2 e o fazendeiro ganha créditos de carbono, ao mesmo tempo que há um maior controle sobre a saúde do bovino.',
             number: 2
         },
         {
-            name: 'Gana dinheiro com a plataforma',
-            description: 'Os dados dos bovinos e os créditos de carbono são registrados e exibidos na plataforma. A partir daqui, o agricultor pode consultar os dados dos animais e trocar créditos por dinheiro real, aumentando seu lucro.',
+            name: 'Ganhe dinheiro com a plataforma',
+            description: 'Os dados do gado e os créditos de carbono são registrados e exibidos na plataforma. A partir daqui, o agricultor pode consultar os dados dos animais e trocar créditos por dinheiro real, aumentando seu lucro.',
             number: 3
         }]
 
