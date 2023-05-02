@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e7280ce8bdd8e784839bbf5f45419a8",
+    "revision": "cb9f373674889b8aa58844108df57489",
     "url": "/gaia-aleph/index.html"
   },
   {
-    "revision": "2a4212eda5e3dcc338e7",
+    "revision": "0e848c98854af9cd967a",
     "url": "/gaia-aleph/static/css/2.e6ac38db.chunk.css"
   },
   {
-    "revision": "f0d9cb78f01a395d1f88",
-    "url": "/gaia-aleph/static/css/main.34459e5d.chunk.css"
+    "revision": "377cdaed3ceab17d1842",
+    "url": "/gaia-aleph/static/css/main.5c6f90d2.chunk.css"
   },
   {
-    "revision": "2a4212eda5e3dcc338e7",
-    "url": "/gaia-aleph/static/js/2.6df8ea35.chunk.js"
+    "revision": "0e848c98854af9cd967a",
+    "url": "/gaia-aleph/static/js/2.0b652ec0.chunk.js"
   },
   {
     "revision": "4557c15fd8984004468e8d016ab0ee8b",
-    "url": "/gaia-aleph/static/js/2.6df8ea35.chunk.js.LICENSE.txt"
+    "url": "/gaia-aleph/static/js/2.0b652ec0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f0d9cb78f01a395d1f88",
-    "url": "/gaia-aleph/static/js/main.674f681d.chunk.js"
+    "revision": "377cdaed3ceab17d1842",
+    "url": "/gaia-aleph/static/js/main.9bf3497c.chunk.js"
   },
   {
     "revision": "1abfa979182062f29f76",
@@ -140,6 +140,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gaia-aleph/static/media/cow-mask0.ee5eaee4.jpg"
   },
   {
+    "revision": "ca27fbab8804c456416eefb5d7c967b2",
+    "url": "/gaia-aleph/static/media/cow-mask0x.ca27fbab.png"
+  },
+  {
     "revision": "8a6fd777cb3541255bad4801f575c76c",
     "url": "/gaia-aleph/static/media/cow-mask1.8a6fd777.png"
   },
@@ -150,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "246045a87c864931416d64d511ffda11",
     "url": "/gaia-aleph/static/media/devs-team.246045a8.png"
+  },
+  {
+    "revision": "80b94a80eb916f35ff5f9f2ebf9cf56d",
+    "url": "/gaia-aleph/static/media/em-breve.80b94a80.png"
   },
   {
     "revision": "3af27868d0e384597841942daf71cd87",

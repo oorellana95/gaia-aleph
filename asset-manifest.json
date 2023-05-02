@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/gaia-aleph/static/css/main.34459e5d.chunk.css",
-    "main.js": "/gaia-aleph/static/js/main.674f681d.chunk.js",
-    "main.js.map": "/gaia-aleph/static/js/main.674f681d.chunk.js.map",
+    "main.css": "/gaia-aleph/static/css/main.5c6f90d2.chunk.css",
+    "main.js": "/gaia-aleph/static/js/main.9bf3497c.chunk.js",
+    "main.js.map": "/gaia-aleph/static/js/main.9bf3497c.chunk.js.map",
     "runtime-main.js": "/gaia-aleph/static/js/runtime-main.3b50deec.js",
     "runtime-main.js.map": "/gaia-aleph/static/js/runtime-main.3b50deec.js.map",
     "static/css/2.e6ac38db.chunk.css": "/gaia-aleph/static/css/2.e6ac38db.chunk.css",
-    "static/js/2.6df8ea35.chunk.js": "/gaia-aleph/static/js/2.6df8ea35.chunk.js",
-    "static/js/2.6df8ea35.chunk.js.map": "/gaia-aleph/static/js/2.6df8ea35.chunk.js.map",
+    "static/js/2.0b652ec0.chunk.js": "/gaia-aleph/static/js/2.0b652ec0.chunk.js",
+    "static/js/2.0b652ec0.chunk.js.map": "/gaia-aleph/static/js/2.0b652ec0.chunk.js.map",
     "index.html": "/gaia-aleph/index.html",
-    "precache-manifest.3e37f9e428f8d80601c4b42cf2bd37a5.js": "/gaia-aleph/precache-manifest.3e37f9e428f8d80601c4b42cf2bd37a5.js",
+    "precache-manifest.4fb300a8318b623d2ed8a884e6e46900.js": "/gaia-aleph/precache-manifest.4fb300a8318b623d2ed8a884e6e46900.js",
     "service-worker.js": "/gaia-aleph/service-worker.js",
     "static/css/2.e6ac38db.chunk.css.map": "/gaia-aleph/static/css/2.e6ac38db.chunk.css.map",
-    "static/css/main.34459e5d.chunk.css.map": "/gaia-aleph/static/css/main.34459e5d.chunk.css.map",
-    "static/js/2.6df8ea35.chunk.js.LICENSE.txt": "/gaia-aleph/static/js/2.6df8ea35.chunk.js.LICENSE.txt",
+    "static/css/main.5c6f90d2.chunk.css.map": "/gaia-aleph/static/css/main.5c6f90d2.chunk.css.map",
+    "static/js/2.0b652ec0.chunk.js.LICENSE.txt": "/gaia-aleph/static/js/2.0b652ec0.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/gaia-aleph/static/media/1.3abaf9c0.jpg",
     "static/media/10.jpg": "/gaia-aleph/static/media/10.c21d7224.jpg",
     "static/media/11.jpg": "/gaia-aleph/static/media/11.97331a8b.jpg",
@@ -42,9 +42,11 @@
     "static/media/check.png": "/gaia-aleph/static/media/check.50e0f2b0.png",
     "static/media/contact-header.jpg": "/gaia-aleph/static/media/contact-header.7aa1511d.jpg",
     "static/media/cow-mask0.jpg": "/gaia-aleph/static/media/cow-mask0.ee5eaee4.jpg",
+    "static/media/cow-mask0x.png": "/gaia-aleph/static/media/cow-mask0x.ca27fbab.png",
     "static/media/cow-mask1.png": "/gaia-aleph/static/media/cow-mask1.8a6fd777.png",
     "static/media/cow-mask2.png": "/gaia-aleph/static/media/cow-mask2.2097f0b4.png",
     "static/media/devs-team.png": "/gaia-aleph/static/media/devs-team.246045a8.png",
+    "static/media/em-breve.png": "/gaia-aleph/static/media/em-breve.80b94a80.png",
     "static/media/email-pikachu.jpg": "/gaia-aleph/static/media/email-pikachu.3af27868.jpg",
     "static/media/farmers-header.png": "/gaia-aleph/static/media/farmers-header.c981e595.png",
     "static/media/fgv-building.jpg": "/gaia-aleph/static/media/fgv-building.ea8bdaf1.jpg",
@@ -72,8 +74,8 @@
   "entrypoints": [
     "static/js/runtime-main.3b50deec.js",
     "static/css/2.e6ac38db.chunk.css",
-    "static/js/2.6df8ea35.chunk.js",
-    "static/css/main.34459e5d.chunk.css",
-    "static/js/main.674f681d.chunk.js"
+    "static/js/2.0b652ec0.chunk.js",
+    "static/css/main.5c6f90d2.chunk.css",
+    "static/js/main.9bf3497c.chunk.js"
   ]
 }
