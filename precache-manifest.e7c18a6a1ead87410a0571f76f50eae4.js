@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67a0683c3bf8cefc091cf4ddf6d42865",
+    "revision": "efb999e56f040f95b2b839d3a26b9277",
     "url": "/gaia-aleph/index.html"
   },
   {
-    "revision": "0e848c98854af9cd967a",
+    "revision": "db9c53f33dfa1b7896bc",
     "url": "/gaia-aleph/static/css/2.e6ac38db.chunk.css"
   },
   {
-    "revision": "0c6d688af6a24f9c14ad",
-    "url": "/gaia-aleph/static/css/main.5c6f90d2.chunk.css"
+    "revision": "7cd7a5003273030885de",
+    "url": "/gaia-aleph/static/css/main.992ed3b2.chunk.css"
   },
   {
-    "revision": "0e848c98854af9cd967a",
-    "url": "/gaia-aleph/static/js/2.0b652ec0.chunk.js"
+    "revision": "db9c53f33dfa1b7896bc",
+    "url": "/gaia-aleph/static/js/2.d3164b8d.chunk.js"
   },
   {
     "revision": "4557c15fd8984004468e8d016ab0ee8b",
-    "url": "/gaia-aleph/static/js/2.0b652ec0.chunk.js.LICENSE.txt"
+    "url": "/gaia-aleph/static/js/2.d3164b8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c6d688af6a24f9c14ad",
-    "url": "/gaia-aleph/static/js/main.f276bb86.chunk.js"
+    "revision": "7cd7a5003273030885de",
+    "url": "/gaia-aleph/static/js/main.943aeb3c.chunk.js"
   },
   {
     "revision": "1abfa979182062f29f76",

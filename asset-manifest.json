@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/gaia-aleph/static/css/main.5c6f90d2.chunk.css",
-    "main.js": "/gaia-aleph/static/js/main.f276bb86.chunk.js",
-    "main.js.map": "/gaia-aleph/static/js/main.f276bb86.chunk.js.map",
+    "main.css": "/gaia-aleph/static/css/main.992ed3b2.chunk.css",
+    "main.js": "/gaia-aleph/static/js/main.943aeb3c.chunk.js",
+    "main.js.map": "/gaia-aleph/static/js/main.943aeb3c.chunk.js.map",
     "runtime-main.js": "/gaia-aleph/static/js/runtime-main.3b50deec.js",
     "runtime-main.js.map": "/gaia-aleph/static/js/runtime-main.3b50deec.js.map",
     "static/css/2.e6ac38db.chunk.css": "/gaia-aleph/static/css/2.e6ac38db.chunk.css",
-    "static/js/2.0b652ec0.chunk.js": "/gaia-aleph/static/js/2.0b652ec0.chunk.js",
-    "static/js/2.0b652ec0.chunk.js.map": "/gaia-aleph/static/js/2.0b652ec0.chunk.js.map",
+    "static/js/2.d3164b8d.chunk.js": "/gaia-aleph/static/js/2.d3164b8d.chunk.js",
+    "static/js/2.d3164b8d.chunk.js.map": "/gaia-aleph/static/js/2.d3164b8d.chunk.js.map",
     "index.html": "/gaia-aleph/index.html",
-    "precache-manifest.fe927e3e94fdcd31deb26e32fe3ed606.js": "/gaia-aleph/precache-manifest.fe927e3e94fdcd31deb26e32fe3ed606.js",
+    "precache-manifest.e7c18a6a1ead87410a0571f76f50eae4.js": "/gaia-aleph/precache-manifest.e7c18a6a1ead87410a0571f76f50eae4.js",
     "service-worker.js": "/gaia-aleph/service-worker.js",
     "static/css/2.e6ac38db.chunk.css.map": "/gaia-aleph/static/css/2.e6ac38db.chunk.css.map",
-    "static/css/main.5c6f90d2.chunk.css.map": "/gaia-aleph/static/css/main.5c6f90d2.chunk.css.map",
-    "static/js/2.0b652ec0.chunk.js.LICENSE.txt": "/gaia-aleph/static/js/2.0b652ec0.chunk.js.LICENSE.txt",
+    "static/css/main.992ed3b2.chunk.css.map": "/gaia-aleph/static/css/main.992ed3b2.chunk.css.map",
+    "static/js/2.d3164b8d.chunk.js.LICENSE.txt": "/gaia-aleph/static/js/2.d3164b8d.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/gaia-aleph/static/media/1.3abaf9c0.jpg",
     "static/media/10.jpg": "/gaia-aleph/static/media/10.c21d7224.jpg",
     "static/media/11.jpg": "/gaia-aleph/static/media/11.97331a8b.jpg",
@@ -74,8 +74,8 @@
   "entrypoints": [
     "static/js/runtime-main.3b50deec.js",
     "static/css/2.e6ac38db.chunk.css",
-    "static/js/2.0b652ec0.chunk.js",
-    "static/css/main.5c6f90d2.chunk.css",
-    "static/js/main.f276bb86.chunk.js"
+    "static/js/2.d3164b8d.chunk.js",
+    "static/css/main.992ed3b2.chunk.css",
+    "static/js/main.943aeb3c.chunk.js"
   ]
 }
