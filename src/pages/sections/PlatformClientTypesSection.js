@@ -34,7 +34,7 @@ function PlatformClientTypesSection() {
                 <Container>
                     <Row>
                         <Col md={6} className="mx-auto text-center mb-3 section-heading">
-                            <h2 className="mb-5">Visibilidades da plataforma</h2>
+                            <h2 className="mb-5">Funcionalidades da plataforma</h2>
                         </Col>
                     </Row>
                     <Row>

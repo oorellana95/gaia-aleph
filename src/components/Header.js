@@ -16,7 +16,7 @@ function Header(props) {
           ref={pageHeader}
         ></div>
         <Container>
-          <div className="content-center brand">
+          <div className="content-center brand text-center">
             <img
               alt="..."
               className="n-logo"
@@ -24,6 +24,7 @@ function Header(props) {
             ></img>
             <h1 className="h1-seo">{props.title}</h1>
             <h3>{props.description}</h3>
+            {props.secondaryDescription && <h4>{props.secondaryDescription}</h4>}
           </div>
           <h6 className="category category-absolute">
             Designed by{" "}

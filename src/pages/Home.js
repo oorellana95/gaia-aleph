@@ -31,7 +31,8 @@ function Home () {
       <MyNavbar navbarSolidColor="dark-green"/>
       <div className="wrapper">
         
-        <Header routeImage = {require("assets/img/home-header.png")} title="Gaia Aleph" description = "Venha conhecer o dinheiro dos créditos de carbono" filterColor="blue"/>
+        <Header routeImage = {require("assets/img/home-header.png")} title="Gaia Aleph" description = "Ajudando o seu bolso e o planeta" 
+        secondaryDescription="Nossa tecnologia neutraliza as emissões do seu rebanho, aumentando sua lucratividade pela venda de créditos de carbono" filterColor="blue"/>
         
         <div className="main">
           <HomeCommingSoonSection/>

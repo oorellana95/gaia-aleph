@@ -38,7 +38,7 @@ function MapSection() {
                 <Container>
                     <Row>
                         <Col md={6} className="mx-auto text-center mb-3 section-heading">
-                            <h2 className="mb-5">Encontre-nos em</h2>
+                            <h2 className="mb-5">Encontre-nos</h2>
                         </Col>
                     </Row>
                     <Row>
